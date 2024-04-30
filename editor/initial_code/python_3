@@ -1,1 +1,16 @@
-{{CODIGO INICIAL}}
+def analisar_notas(alunos_notas):
+
+    return None
+
+
+
+
+
+print("Example:")
+print(analisar_notas([['Alice', 90], ['Bob', 75], ['Clara', 85]]))
+
+assert analisar_notas([['Alice', 90], ['Bob', 75], ['Clara', 85]]) == ['Alice', 90]
+assert analisar_notas([['João', 88], ['Ana', 92], ['Miguel', 78]]) == ['Ana', 92]
+assert analisar_notas([['Carlos', 65], ['Marta', 85], ['Lucas', 85]]) == ['Marta', 85]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

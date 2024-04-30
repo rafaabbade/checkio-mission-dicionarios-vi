@@ -1,18 +1,20 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Você receberá uma lista de listas contendo nomes de alunos e suas respectivas notas. Converta essa lista em um dicionário e calcule a média das notas e a nota mais alta, printando ambos os resultados junto com o nome do aluno que obteve a nota mais alta.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Uma lista de listas, cada uma contendo o nome de um aluno (string) e sua nota (inteiro).
+
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma lista com o nome do aluno e sua nota mais alta.
+
 </p>
 
 
@@ -28,7 +30,9 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    analisar_notas([['Alice', 90], ['Bob', 75], ['Clara', 85]]) == ['Alice', 90]
+analisar_notas([['João', 88], ['Ana', 92], ['Miguel', 78]]) == ['Ana', 92]
+analisar_notas([['Carlos', 65], ['Marta', 85], ['Lucas', 85]]) == ['Marta', 85]
 </pre>
 {% endif %}
 </div>
